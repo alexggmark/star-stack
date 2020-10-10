@@ -1,7 +1,11 @@
 const posts = [
   {
     id: 1234567,
-    text: 'When the cows come home'
+    text: 'When the cows come home',
+    user: {
+      avatar: 'sdfdfsd',
+      username: 'Stupendo'
+    }
   },
   {
     id: 1234568,
