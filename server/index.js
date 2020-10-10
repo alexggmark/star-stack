@@ -14,8 +14,4 @@ for (let i = 0; i < serviceNames.length; i++) {
 	}
 }
 
-app.get('*', (req, res) => {
-  res.send('Hello world')
-})
-
 app.listen(8000, () => console.log('Running'))
